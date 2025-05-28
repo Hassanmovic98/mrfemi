@@ -26,24 +26,21 @@ public class ArraySquare{
 		else {
 		if(numbers[count] < 0) {
 		   int arraySquare = {9, 2, 7, 0, 5};
-		   returned squareNumber;
+		 } else {
+		    squarenumber[count] = numbers[count] * numbers[count];
+		  }
+	      }
 		
-	
-		
-		}
-	}
-	       return squareNumber;
+                return squareNumber;
+          }
 
-    }
-
-	
-
-    public static void main(String[] args) {
+          public static void main(String[] args){
 		    
-	int [] numbers = {9, 2, 7, 0, 5};
+	     int[] numbers = {9, 2, 7, 0, 5};
 	
-	System.out.print(Arrays.toString(squarearray(numbers)));
+	      System.out.print(Arrays.toString(squarearray(numbers)));
+	  }
 
+ }
 
-   }
 
